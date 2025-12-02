@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2025-12-01T06:40:36.000Z",
+  "updatedAt": "2025-12-01T06:43:16.000Z",
   "createdAt": "2025-12-01T06:25:20.148Z",
   "id": "Il6P3RznLjyz72FS",
   "name": "备份n8n流程到github",
-  "active": false,
+  "active": true,
   "isArchived": false,
   "nodes": [
     {
@@ -399,13 +399,17 @@
   "settings": {
     "executionOrder": "v1"
   },
-  "staticData": null,
+  "staticData": {
+    "node:Schedule Trigger": {
+      "recurrenceRules": []
+    }
+  },
   "meta": {
     "templateCredsSetupCompleted": true
   },
   "pinData": {},
   "versionId": "7791ad4a-fe72-477c-916e-5bb794c36e32",
-  "triggerCount": 0,
+  "triggerCount": 1,
   "shared": [
     {
       "updatedAt": "2025-12-01T06:25:20.153Z",
